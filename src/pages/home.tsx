@@ -5,9 +5,9 @@ import { Button } from "@/components/ui/button";
 import { projects } from "@/data/projects";
 import { backendSkills, frontendSkills, tools } from "@/data/skills";
 import { ChevronRight, Code, Github } from "lucide-react";
-import { SiMysql, SiVitest } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import { HiMiniCommandLine } from "react-icons/hi2";
+import { SiVitest } from "react-icons/si";
 import { Link } from "wouter";
 
 const Home = () => {
@@ -114,14 +114,14 @@ const Home = () => {
                     IconComponent = Github;
                     break;
                   case "MySQL":
-                    IconComponent = GrMysql
-                    break
+                    IconComponent = GrMysql;
+                    break;
                   case "CLI":
-                    IconComponent = HiMiniCommandLine
-                    break
+                    IconComponent = HiMiniCommandLine;
+                    break;
                   case "Vitest":
-                    IconComponent = SiVitest
-                    break
+                    IconComponent = SiVitest;
+                    break;
                   default:
                     IconComponent = Code;
                 }
