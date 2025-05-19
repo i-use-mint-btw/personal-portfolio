@@ -1,12 +1,4 @@
 import { motion } from "framer-motion";
-import {
-  Briefcase,
-  FileText,
-  Github,
-  GraduationCap,
-  Linkedin,
-  Twitter,
-} from "lucide-react";
 
 const About = () => {
   return (

@@ -1,5 +1,5 @@
+import { Github } from "lucide-react";
 import { Link } from "wouter";
-import { Github, Linkedin, Twitter, ExternalLink } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -11,21 +11,23 @@ const Footer = () => {
               &lt;<span className="text-primary dark:text-primary">Dev</span>
               <span className="text-white">Portfolio</span>/&gt;
             </Link>
-            <p className="mt-2 text-gray-400">Building the web, one project at a time.</p>
+            <p className="mt-2 text-gray-400">
+              Building the web, one project at a time.
+            </p>
           </div>
-          
+
           <div className="flex flex-col items-center md:items-end">
             <div className="flex space-x-4 mb-4">
-              <a 
-                href="https://github.com/i-use-mint-btw" 
-                target="_blank" 
+              <a
+                href="https://github.com/i-use-mint-btw"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-primary dark:hover:text-primary transition-colors"
                 aria-label="GitHub"
               >
                 <Github className="h-5 w-5" />
               </a>
-             {/*  <a 
+              {/*  <a 
                 href="https://linkedin.com" 
                 target="_blank" 
                 rel="noopener noreferrer"

@@ -4,15 +4,7 @@ import SkillBar from "@/components/home/skill-bar";
 import { Button } from "@/components/ui/button";
 import { projects } from "@/data/projects";
 import { backendSkills, frontendSkills, tools } from "@/data/skills";
-import {
-  Accessibility,
-  ChevronRight,
-  Code,
-  Gauge,
-  GitBranch,
-  Github,
-  Smartphone,
-} from "lucide-react";
+import { ChevronRight, Code, Github } from "lucide-react";
 import { Link } from "wouter";
 
 const Home = () => {
@@ -67,8 +59,8 @@ const Home = () => {
             <h2 className="text-3xl font-bold mb-2">Skills & Expertise</h2>
             <div className="w-16 h-1 bg-primary dark:bg-primary mx-auto mb-6"></div>
             <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Here are some of the technologies and tools I've worked with throughout my
-              career.
+              Here are some of the technologies and tools I've worked with
+              throughout my career.
             </p>
           </div>
 
