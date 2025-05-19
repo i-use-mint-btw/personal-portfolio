@@ -23,8 +23,7 @@ const HeroSection = () => {
               <span className="font-mono">/&gt;</span>
             </h2>
             <p className="text-lg mb-8 text-gray-600 dark:text-gray-300 leading-relaxed text-center">
-              I build robust web applications using modern technologies.
-              Vary passionate developer who enjoys all things tech.
+              I build robust and user friendly web applications using modern technologies.
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <Button asChild size="lg" className="bg-primary hover:bg-primary/90 dark:bg-primary dark:hover:bg-primary/90">

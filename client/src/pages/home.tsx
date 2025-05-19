@@ -67,7 +67,7 @@ const Home = () => {
             <h2 className="text-3xl font-bold mb-2">Skills & Expertise</h2>
             <div className="w-16 h-1 bg-primary dark:bg-primary mx-auto mb-6"></div>
             <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Here are the technologies and tools I've worked with throughout my
+              Here are some of the technologies and tools I've worked with throughout my
               career.
             </p>
           </div>
@@ -113,38 +113,10 @@ const Home = () => {
 
             <div className="flex flex-wrap gap-4">
               {tools.map((tool, index) => {
-                // Render the appropriate icon based on the tool name
                 let IconComponent;
                 switch (tool.icon) {
                   case "github":
                     IconComponent = Github;
-                    break;
-                  case "docker":
-                    IconComponent = Code;
-                    break;
-                  case "aws":
-                    IconComponent = Code;
-                    break;
-                  case "figma":
-                    IconComponent = Code;
-                    break;
-                  case "code":
-                    IconComponent = Code;
-                    break;
-                  case "jira":
-                    IconComponent = Code;
-                    break;
-                  case "git-branch":
-                    IconComponent = GitBranch;
-                    break;
-                  case "smartphone":
-                    IconComponent = Smartphone;
-                    break;
-                  case "accessibility":
-                    IconComponent = Accessibility;
-                    break;
-                  case "gauge":
-                    IconComponent = Gauge;
                     break;
                   default:
                     IconComponent = Code;

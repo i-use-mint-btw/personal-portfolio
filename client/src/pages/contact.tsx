@@ -4,7 +4,7 @@ import { Mail, MapPin, Zap, Github, Linkedin, Twitter } from "lucide-react";
 
 const Contact = () => {
   return (
-    <main className="min-h-screen">
+    <main>
       <section className="py-20 bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-gray-900 dark:to-gray-800 transition-colors duration-300">
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center mb-14">
@@ -28,7 +28,7 @@ const Contact = () => {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.3 }}
             >
-              Have a project in mind or just want to chat? Feel free to reach out!
+              Need to contact me? here's how you can do it
             </motion.p>
           </div>
         </div>
@@ -38,7 +38,7 @@ const Contact = () => {
         <div className="container mx-auto px-4 md:px-6">
           <div className="flex flex-col md:flex-row gap-10">
             <motion.div 
-              className="md:w-2/5"
+              className="md:w-2/5 mx-auto"
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, delay: 0.4 }}
@@ -57,7 +57,7 @@ const Contact = () => {
                         href="mailto:john.dev@example.com" 
                         className="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors"
                       >
-                        john.dev@example.com
+                        gilljoel415@email.com
                       </a>
                     </div>
                   </div>
@@ -68,7 +68,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="font-medium mb-1">Location</p>
-                      <p className="text-gray-600 dark:text-gray-300">San Francisco, CA</p>
+                      <p className="text-gray-600 dark:text-gray-300">Trinidad and Tobago</p>
                     </div>
                   </div>
                   
@@ -80,7 +80,7 @@ const Contact = () => {
                       <p className="font-medium mb-1">Availability</p>
                       <p className="text-gray-600 dark:text-gray-300">
                         <span className="inline-block w-3 h-3 bg-green-500 rounded-full mr-2"></span>
-                        Available for freelance
+                        Available for work
                       </p>
                     </div>
                   </div>
@@ -89,7 +89,7 @@ const Contact = () => {
                 <h3 className="text-xl font-bold mt-8 mb-4">Connect With Me</h3>
                 <div className="flex space-x-3">
                   <a 
-                    href="https://github.com" 
+                    href="https://github.com/i-use-mint-btw" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="w-10 h-10 flex items-center justify-center bg-gray-200 dark:bg-gray-700 rounded-full hover:bg-primary hover:text-white dark:hover:bg-primary transition-colors"
@@ -97,7 +97,7 @@ const Contact = () => {
                   >
                     <Github className="h-5 w-5" />
                   </a>
-                  <a 
+                  {/* <a 
                     href="https://linkedin.com" 
                     target="_blank" 
                     rel="noopener noreferrer"
@@ -114,54 +114,8 @@ const Contact = () => {
                     aria-label="Twitter"
                   >
                     <Twitter className="h-5 w-5" />
-                  </a>
+                  </a> */}
                 </div>
-              </div>
-              
-              <div className="mt-8 bg-gray-50 dark:bg-gray-800 p-8 rounded-xl shadow-lg">
-                <h3 className="text-xl font-bold mb-4 text-primary dark:text-primary">My Schedule</h3>
-                <div className="space-y-3">
-                  <div className="flex justify-between">
-                    <span className="text-gray-600 dark:text-gray-300">Monday - Friday</span>
-                    <span className="font-medium">9:00 AM - 5:00 PM</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-gray-600 dark:text-gray-300">Saturday</span>
-                    <span className="font-medium">10:00 AM - 2:00 PM</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-gray-600 dark:text-gray-300">Sunday</span>
-                    <span className="font-medium">Closed</span>
-                  </div>
-                </div>
-                <p className="mt-4 text-sm text-gray-600 dark:text-gray-300">
-                  All times are in Pacific Standard Time (PST).
-                </p>
-              </div>
-            </motion.div>
-            
-            <motion.div 
-              className="md:w-3/5"
-              initial={{ opacity: 0, x: 20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5, delay: 0.4 }}
-            >
-              <ContactForm />
-              
-              <div className="mt-8 bg-gray-50 dark:bg-gray-800 p-6 rounded-xl shadow-lg">
-                <h3 className="text-lg font-bold mb-3">Project Request</h3>
-                <p className="text-gray-600 dark:text-gray-300">
-                  For project inquiries, please include the following details in your message:
-                </p>
-                <ul className="list-disc list-inside mt-2 space-y-1 text-gray-600 dark:text-gray-300">
-                  <li>Project type and scope</li>
-                  <li>Estimated timeline</li>
-                  <li>Budget range</li>
-                  <li>Any specific technologies required</li>
-                </ul>
-                <p className="mt-3 text-sm text-gray-600 dark:text-gray-300">
-                  I'll get back to you within 24-48 hours with an initial assessment.
-                </p>
               </div>
             </motion.div>
           </div>
