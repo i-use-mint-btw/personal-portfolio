@@ -3,13 +3,13 @@ import { Link } from "wouter";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 dark:bg-gray-950 text-white py-10 transition-colors duration-300">
+    <footer className="bg-white dark:bg-gray-950 text-white py-10 transition-colors duration-300 shadow-2xl shadow-black">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
-            <Link href="/" className="text-2xl font-bold">
+            <Link href="/" className="text-2xl font-bold text-secondary">
               &lt;<span className="text-primary dark:text-primary">Dev</span>
-              <span className="text-white">Portfolio</span>/&gt;
+              <span className="dark:text-secondary">Portfolio</span>/&gt;
             </Link>
             <p className="mt-2 text-gray-400">
               Building the web, one project at a time.
