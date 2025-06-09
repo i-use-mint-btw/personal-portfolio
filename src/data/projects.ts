@@ -44,7 +44,7 @@ export const projects: Project[] = [
       { name: "Vuejs", color: "purple" },
     ],
     githubUrl: "https://github.com/i-use-mint-btw/inkflow",
-    liveUrl: "https://frontend-production-050c.up.railway.app/",
+    liveUrl: "#",
   },
   {
     id: 3,
@@ -69,7 +69,7 @@ export const projects: Project[] = [
       { name: "Sass", color: "green" },
       { name: "Javascript", color: "purple" },
     ],
-    githubUrl: "https://github.com/i-use-mint-btw/easybank",
-    liveUrl: "https://i-use-mint-btw.github.io/easybank/",
+    githubUrl: "https://github.com/i-use-mint-btw/Easybank-website-FrontendMentor-",
+    liveUrl: "https://easybank-website-frontend-mentor.vercel.app/",
   },
 ];
