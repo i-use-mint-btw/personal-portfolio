@@ -69,7 +69,7 @@ export const projects: Project[] = [
       { name: "Sass", color: "green" },
       { name: "Javascript", color: "purple" },
     ],
-    githubUrl: "https://github.com/i-use-mint-btw/Easybank-website-FrontendMentor-",
+    githubUrl: "https://github.com/i-use-mint-btw/easybank-landing",
     liveUrl: "https://easybank-website-frontend-mentor.vercel.app/",
   },
 ];
